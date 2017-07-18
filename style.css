@@ -1,0 +1,130 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+*{
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6
+
+}
+
+body{
+  margin: 30px auto 30px auto;
+  width: 70%;
+  background-color: #dddddd;
+}
+
+body div{
+  background-color: white;
+}
+
+p{
+  margin-left: 30px;
+}
+
+#site_header{
+  background-color: #ff8523;
+  height: 150px;
+}
+
+#logo{
+  margin-left: 30px;
+  margin-top: 60px;
+}
+
+h2, h3{
+  color: #1fabe5;
+  margin-left: 30px;
+
+}
+
+
+
+#page_content ul{
+  font-weight: bold;
+  border-bottom: 4px solid grey;
+  padding-bottom: 75px;
+}
+.main_navigation a{
+  display: inline-block;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  border-collapse: collapse;
+  padding: 10px 30px 10px 30px;
+}
+
+table thead tr td{
+  border: 2px solid black;
+  border-collapse: collapse;
+  background-color: #1fabe5;
+  border-color: #046c97;
+  padding: 30px 20px 30px 20px;
+  color: white;
+}
+
+table tbody tr td{
+  border: 2px solid #1fabe5;
+  border-color: #046c97;
+  padding: 10px 20px 10px 20px;
+  border-collapse: collapse;
+}
+table{
+  margin-left: 30px;
+  border-collapse: collapse;
+}
+
+.name{
+  background-color: #ff8523;
+  margin: 30px 30px 30px 30px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 30px 15px 30px 15px;
+  color: white;
+}
+
+section form{
+  background-color: #D3D3D3;
+  padding: 6px 6px 6px 6px;
+
+}
+
+.city_container{
+  background-color: #D3D3D3;
+}
+
+form div{
+  background-color: #D3D3D3;
+}
+
+
+
+textarea{
+  background-color: white;
+}
+
+table img{
+  width: 60px;
+  height: 60px;
+}
+
+#bio{
+  width: 90%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+textarea{
+  width: 80%;
+  margin: 10% 10% 10% 10%;
+}
